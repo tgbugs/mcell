@@ -155,4 +155,4 @@ add_executable(mcell
   ${FLEX_mdlScanner_OUTPUTS})
 target_link_libraries(mcell ${M_LIB})
 
-install(PROGRAMS build/mcell DESTINATION ${CMAKE_INSTALL_PREFIX})
+install(PROGRAMS build/mcell DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
