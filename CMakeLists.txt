@@ -154,3 +154,5 @@ add_executable(mcell
   ${BISON_mdlParser_OUTPUTS}
   ${FLEX_mdlScanner_OUTPUTS})
 target_link_libraries(mcell ${M_LIB})
+
+install(FILES mcell DESTINATION ${CMAKE_INSTALL_PREFIX})
